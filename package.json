@@ -1,0 +1,20 @@
+{
+  "name": "admin-bro",
+  "version": "1.0.0",
+  "description": "File upload feature using admin-bro, which comes with full featured admin panel with CRUD, user management, sign in and password hashing",
+  "main": "index.js",
+  "repository": "https://github.com/bilalsaeed232/admin-bro",
+  "author": "Bilal Saeed",
+  "license": "GNU",
+  "dependencies": {
+    "@admin-bro/koa": "^1.1.1",
+    "@admin-bro/mongoose": "^1.0.0",
+    "@admin-bro/passwords": "^1.0.3",
+    "@koa/router": "^9.4.0",
+    "admin-bro": "^3.2.5",
+    "argon2": "^0.27.0",
+    "koa": "^2.13.0",
+    "koa2-formidable": "^1.0.2",
+    "mongoose": "^5.10.3"
+  }
+}
